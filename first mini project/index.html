@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+<body>
+    <table id="myForm">
+        <tr>
+            <th colspan="3">کل موجودی : 500 هزار تومان</th>
+        </tr>
+        <tr>
+            <td>قیمت اجناس:</td>
+            <td><input type="text" id="num1"></td>
+            <td><input type="text" id="num2"></td>
+        </tr>
+        <tr>
+            <td>مجموع خرید:</td>
+            <td colspan="2" id="sumResult"></td>
+        </tr>
+        <tr>
+            <td>وضعیت حساب :</td>
+            <td colspan="2" id="status"></td>
+        </tr>
+        <tr>
+            <td>باقی مانده حساب :</td>
+            <td colspan="2" id="subResult"></td>
+        </tr>
+    </table>
+    <button type="button" onclick="myFunction()">محاسبه خرید</button>
+    <button type="button" onclick="resetFunction()">پاک کردن اطلاعات</button>
+    <script src="./main.js"></script>
+</body>
+</html>

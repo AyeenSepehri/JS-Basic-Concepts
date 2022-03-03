@@ -1,0 +1,7 @@
+work with getElementById
+using from Inner.HTML()
+work with methamatical operators like + - * / % 
+using from ++ and --
+using from += and -= and /= and *=
+define a addition submit and input section
+define a int number with parseint
